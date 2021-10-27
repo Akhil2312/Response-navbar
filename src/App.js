@@ -24,9 +24,11 @@ function App() {
               <Route path='/cart' component={Cart}/>
             </Switch>
             </div>
-
-              <Carousel/>
-
+              <div class="carousel">
+                    <Carousel/>
+                    <Carousel/>
+                    <Carousel/>
+              </div>
           <div className='page-foot'>
                 <Footer/>
           </div>
